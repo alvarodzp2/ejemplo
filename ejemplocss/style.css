@@ -1,0 +1,37 @@
+#texto1 {
+    font-family: "Arial";
+    font-size: 18px; /* Tamaño en píxeles */
+    font-weight: 400;
+    font-style: normal;
+    font-variant: small-caps; /* Variación de fuente */
+    line-height: 1.4; /* Unidad sin especificar para altura de línea, relativa al tamaño de fuente */
+    color: #030303;
+    margin: 5rem; /* Tamaño en rem, relativo al tamaño de la fuente raíz */
+    padding: 0.5in; /* Tamaño en pulgadas */
+}
+
+#texto2 {
+    font-family: "Courier New";
+    font-size: 2em; /* Tamaño en em, relativo al tamaño de su elemento padre */
+    font-weight: bold;
+    font-style: italic;
+    font-variant: normal; /* Texto sin variantes */
+    line-height: 2em; /* Altura de línea en em, el doble del tamaño de la fuente */
+    color: #0077cc;
+    margin: 5vh; /* Tamaño en vh, relativo al 5% de la altura de la ventana */
+    padding: 16px; /* Tamaño en píxeles */
+    background-color: #e0f7fa;
+}
+
+#texto3 {
+    font-family: "Cursive";
+    font-size: 40px; /* Tamaño en rem, relativo al tamaño de la fuente raíz */
+    font-weight: 700;
+    font-style: oblique;
+    font-variant: inherit; /* Hereda la variación de la fuente */
+    line-height: 150%; /* Tamaño como porcentaje del tamaño de la fuente */
+    color: #990000;
+    margin: 3vw; /* Tamaño en vw, relativo al 3% del ancho de la ventana */
+    padding: 2cm; /* Tamaño en centímetros */
+    border: 0.2em solid #990000; /* Borde en em, relativo al tamaño de fuente del elemento */
+}
